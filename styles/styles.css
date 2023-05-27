@@ -8,10 +8,10 @@
 
 @font-face {
 	font-family: 'Okay Serif Bold';
-	src: url('../fonts/Okay Serif Bold.ttf') format('tff'),
-		url('../fonts/Okay Serif Bold Italic.ttf') format('tff');
+	src: url('../fonts/Okay Serif Bold.woff') format('woff'),
+		url('../fonts/Okay Serif Bold Italic.woff') format('woff');
 	font-weight: 400;
-	font-display: swap;
+	font-display: fallback;
 }
 
 input,
