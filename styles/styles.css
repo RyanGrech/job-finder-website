@@ -6,14 +6,6 @@
 	color: #333;
 }
 
-@font-face {
-	font-family: 'Okay Serif Bold';
-	src: url('../fonts/Okay Serif Bold.woff') format('woff'),
-		url('../fonts/Okay Serif Bold Italic.woff') format('woff');
-	font-weight: 400;
-	font-display: fallback;
-}
-
 input,
 textarea,
 select,
@@ -169,12 +161,11 @@ main {
 	align-items: flex-start;
 	padding: 45px;
 	gap: 45px;
-	/* background-color: red; */
 	flex-grow: 1;
 }
 
 main h1 {
-	font-family: 'Okay Serif Bold';
+	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 48px;
@@ -209,7 +200,7 @@ main h1 {
 }
 
 h2 {
-	font-family: 'Okay Serif Bold';
+	font-family: 'Source Serif Pro', serif;
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 30px;
